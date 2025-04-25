@@ -11,12 +11,12 @@ export default function RegisterCard() {
 
     return(
         <>
-            <div className="w-1/3 h-8/12 bg-[#fff] shadow-lg shadow-black flex flex-col">
-                <div className="flex h-1/3 items-end justify-center">
+            <div className="lg:w-1/3 lg:h-8/12 w-5/6 h-1/2 bg-[#fff] shadow-lg shadow-black flex flex-col">
+                <div className="flex h-1/3  items-end justify-center">
                     <h1 className="text-5xl text-black">Registro</h1>
                 </div>
 
-                <div className="flex flex-col h-2/3  justify-center gap-5 items-center ">
+                <div className="flex flex-col lg:h-2/3  justify-center gap-5 items-center ">
                     <Input 
                         type="text"
                         id="usernameRegister"

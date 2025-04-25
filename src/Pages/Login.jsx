@@ -7,7 +7,7 @@ import RegisterCard from "../Components/RegisterCard";
 
     return(
         <>
-            <section className="flex w-screen h-screen items-center justify-center">
+            <section className="flex w-screen h-screen items-center justify-center lg:flex-row flex-col">
                 {/*Esta es la seccion del registro */}
                 <LoginCard/>
 
