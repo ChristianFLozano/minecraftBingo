@@ -48,7 +48,7 @@ export default function LoginCard(){
                     </div>
 
                     <div className="w-2/3 h-2/6  p-1">
-                        <button className="bg-[#2D2D2D] w-full h-full p-1 text-white hover:bg-green-700" onClick={()=>{console.log("Hola")}}>Iniciar sesion</button>
+                        <button className="bg-[#2D2D2D] w-full lg:h-full p-1 text-white hover:bg-green-700" onClick={()=>{console.log("Hola")}}>Iniciar sesion</button>
                     </div>
                 </div>
             
