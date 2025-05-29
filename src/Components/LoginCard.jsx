@@ -12,7 +12,7 @@ export default function LoginCard(){
 
     return(
         <>
-            <div className="lg:w-1/3 lg:h-8/12 w-5/6 h-1/2 bg-[#3A3A3A] shadow-2xl shadow-black flex flex-col">
+            <div className="lg:w-1/3 lg:h-8/12 w-4/5 h-1/2 bg-[#3A3A3A] shadow-2xl shadow-black flex flex-col">
 
                 <div className="flex h-1/3 items-end justify-center">
                     <h1 className="text-5xl text-white ">Iniciar sesion</h1>
