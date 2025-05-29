@@ -15,7 +15,7 @@ export default function LoginCard(){
             <div className="lg:w-1/3 lg:h-8/12 w-5/6 h-1/2 bg-[#3A3A3A] shadow-2xl shadow-black flex flex-col">
 
                 <div className="flex h-1/3 items-end justify-center">
-                    <h1 className="text-5xl text-white">Iniciar sesion</h1>
+                    <h1 className="text-5xl text-white ">Iniciar sesion</h1>
                 </div>
 
                 <div className="flex flex-col h-2/3  justify-around gap-4 items-center "> 
@@ -36,19 +36,23 @@ export default function LoginCard(){
                         onChange={(e) => setFormData({ ...formData, password: e.target.value })} 
                         placeholder="Ingrese su contraseña"
                         style={"bg-[#1F1F1F] w-2/3 h-1/6 pt-2 p-1"} />
-                   
+                    
                     <div>
                         <input 
                             type="checkbox" 
                             name="Mostrar" 
                             id="0" 
                             value={showPassword} 
-                            onChange={()=>{setShowPassword(!showPassword);}} />
+                            onChange={()=>{setShowPassword(!showPassword);}} 
+                            className='accent-green-700 hover:cursor-pointer'
+                            />
                         <label htmlFor="0" className="text-white pl-1">Mostrar contraseña</label>
                     </div>
 
                     <div className="w-2/3 h-2/6  p-1">
-                        <button className="bg-[#2D2D2D] w-full lg:h-full p-1 text-white hover:bg-green-700" onClick={()=>{console.log("Hola")}}>Iniciar sesion</button>
+                        <button className="bg-[#2D2D2D] w-full lg:h-full p-1 text-white hover:bg-green-700
+                                            hover:cursor-pointer" 
+                        onClick={()=>{console.log("Hola")}}>Iniciar sesion</button>
                     </div>
                 </div>
             

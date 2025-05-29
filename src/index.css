@@ -7,4 +7,5 @@
 
 body {
   font-family: 'Minecraft', sans-serif;
+  user-select: none;
 }
