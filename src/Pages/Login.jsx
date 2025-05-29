@@ -12,7 +12,7 @@ import RegisterCard from "../Components/RegisterCard";
             <section className="flex w-screen h-screen items-center justify-center flex-col">
                 {isLogin ? <LoginCard/>: <RegisterCard/>}                
                 
-                <div className={`lg:w-4/12 w-4/5 h-auto ${isLogin?"bg-[#3A3A3A] text-white":"bg-white/80"} flex p-5 items-center justify-center`}>
+                <div className={`lg:w-4/12 w-4/5 h-auto ${isLogin?"bg-[#3A3A3A] text-white":"bg-white/83"} flex p-5 items-center justify-center`}>
                     <button onClick={()=>{setIsLogin(!isLogin)}}
                             className="hover:cursor-pointer hover:text-green-700"    
                     >

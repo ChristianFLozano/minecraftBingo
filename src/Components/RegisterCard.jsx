@@ -16,7 +16,7 @@ export default function RegisterCard() {
                     <h1 className="text-5xl text-black">Registro</h1>
                 </div>
 
-                <div className="flex flex-col lg:h-2/3  justify-center gap-1.5 items-center ">
+                <div className="flex flex-col lg:h-2/3 h-4/5 lg:justify-center gap-2 items-center ">
                     <Input 
                         type="text"
                         id="usernameRegister"
@@ -24,7 +24,7 @@ export default function RegisterCard() {
                         value={formData.username}
                         onChange={(e) => setFormData({ ...formData, username: e.target.value })} 
                         placeholder="Ingrese su nuevo usuario" 
-                        style={"bg-[#1F1F1F] w-2/3 h-1/6 pt-2 p-1"}/>
+                        style={"bg-[#1F1F1F] w-2/3 h-1/6  pt-2 p-1"}/>
                     <Input 
                         type={showPassword ? 'text' : 'password'}
                         id="passwordRegister"
@@ -56,7 +56,7 @@ export default function RegisterCard() {
 
                         <label htmlFor="0" className="text-black pl-1">Mostrar contraseñas</label> 
                     </div>
-                    <div className="w-2/3 h-2/6  p-1">
+                    <div className="w-2/3 lg:h-2/6 h-auto p-1">
                         <button className="bg-[#2D2D2D] w-full h-full p-1 text-white hover:bg-green-700
                                             hover:cursor-pointer" 
                         onClick={()=>{console.log("Hola")}}>Registrar</button>
